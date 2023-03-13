@@ -26,7 +26,7 @@ export const SubRating = ({ handleSub, range }: SubRatingType) => {
   return (
     <div className="flex flex-col">
       <div className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center">
-        <img src="./images/icon-star.svg" alt="star" className="scale-80" />
+        <img src="./images/icon-star.svg" alt="star" />
       </div>
       <h2 className="text-xl font-semibold mt-6">How did we do?</h2>
       <p className="text-sm font-light text-white/50 my-4">
